@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
+.accordion{
+    max-width: 50%;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.accordion-item{
+    background-color: rgba(0, 0, 0, 0.847);
+    color: #fff;
+}
+
+.carousel{
+    max-width: 70%;
+    margin: 0 auto;
+}

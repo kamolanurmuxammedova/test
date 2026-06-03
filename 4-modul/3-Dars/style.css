@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+tr:nth-of-type(odd){
+    background-color: rgb(136, 136, 248);
+}
+
+th{
+    background-color: blue;
+}

@@ -1,0 +1,1459 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="bg-[#404040] text-[white] bg-neutral-primary fixed w-full z-50 top-0 start-0 border-b py-[20px] border-default"
+      >
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a
+            href="../index.html"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img src="../images/3 1.svg" class="h-[50px]" alt="Flowbite Logo" />
+          </a>
+          <button
+            data-collapse-toggle="navbar-default"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary"
+            aria-controls="navbar-default"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="2"
+                d="M5 7h14M5 12h14M5 17h14"
+              />
+            </svg>
+          </button>
+          <div
+            class="hidden w-full md:flex md:w-auto gap-[150px]"
+            id="navbar-default"
+          >
+            <ul
+              class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary"
+            >
+              <li>
+                <a
+                  href="../index.html"
+                  class="block py-2 px-3 text-heading bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0 hover"
+                  aria-current="page"
+                  >Главная</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./service.html"
+                  class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
+                  >Услуги</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./example.html"
+                  class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
+                  >Примеры работ</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./contact.html"
+                  class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+            <ul class="flex items-center justify-between gap-[20px]">
+              <li class="flex">
+                <img src="../images/Иконка.svg" alt="" />Москва, Ленинградское
+                шоссе 29-35
+              </li>
+              <li>+7 (901) 704-13-44</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="loader z-99999 top-0 left-0">
+      <div class="text"><span>Loading</span></div>
+      <div class="text"><span>Loading</span></div>
+      <div class="text"><span>Loading</span></div>
+      <div class="text"><span>Loading</span></div>
+      <div class="text"><span>Loading</span></div>
+      <div class="text"><span>Loading</span></div>
+      <div class="text"><span>Loading</span></div>
+      <div class="text"><span>Loading</span></div>
+      <div class="text"><span>Loading</span></div>
+      <div class="line"></div>
+    </div>
+
+    <main class="main">
+      <button class="dark z-1000 absolute top-8 left-365 fixed">
+              <img class="moon z-1000 w-[48px]" src="../images/moon_stars_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt=""/>
+              <img class="sun z-1000 w-[48px]" src="../images/wb_sunny_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt=""
+              />
+            </button>
+      <section class="service">
+        <div class="max-w-[1200px] mx-auto text-center">
+          <div class="relative">
+            <h2
+              class="pt-[140px] text-gray-100 text-6xl md:text-8xl font-bold uppercase tracking-widest select-none"
+            >
+              Услуги
+            </h2>
+
+            <div class=" relative mt-[60px] md:mt-[70px]">
+              <p
+                class=" text-lg md:text-xl font-medium max-w-2xl mx-auto leading-tight"
+              >
+                Выбирайте качественные материалы и проверенных исполнителей,
+                чтобы машина засияла как после салона
+              </p>
+              <p class=" text-base md:text-xl max-w-4xl mx-auto">
+                6 лет мы помогаем автолюбителям и делаем качественную покраску и
+                ремонт авто в пределах МКАД
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="grid px-[20px] mx-auto mx-full max-w-[1120px] mt-[60px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[16px]">
+          <div
+            class="border-1 border-[#D4D4D4] rounded-[14px] shadow-xl mt-[20px]">
+            <!-- Modal toggle -->
+            <button
+              data-modal-target="default-modal"
+              data-modal-toggle="default-modal"
+              class=" mb-[20px] font-sm leading-5 rounded-base text-md px-4 py-2.5"
+              type="button"
+            >
+              <div class="flex pt-[10px]">
+                Бампер (передний)
+                <img
+                  class="pl-[150px]"
+                  src="../images/иконка подсказка.svg"
+                  alt=""
+                />
+              </div>
+            </button>
+            <!-- Main modal -->
+            <div
+              id="default-modal"
+              tabindex="-1"
+              aria-hidden="true"
+              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+            >
+              <div class="relative p-4 w-full max-w-2xl max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="relative bg-white border border-default rounded-base shadow-sm p-4 md:p-6"
+                >
+                  <!-- Modal header -->
+                  <div
+                    class="flex items-center justify-between border-b border-default pb-4 md:pb-5"
+                  >
+                    <h3 class="text-lg font-medium text-heading">
+                      Terms of Service
+                    </h3>
+                    <button
+                      type="button"
+                      class="text-body bg-transparent hover:bg-neutral-tertiary hover:text-heading rounded-base text-sm w-9 h-9 ms-auto inline-flex justify-center items-center"
+                      data-modal-hide="default-modal"
+                    >
+                      <svg
+                        class="w-5 h-5"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M6 18 17.94 6M18 18 6.06 6"
+                        />
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                    </button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="space-y-4 md:space-y-6 py-4 md:py-6">
+                    <div class="flex gap-[20px]">
+                      <div
+                        class="border-1 border-[#D4D4D4] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <p class="pl-[17px] pt-[10px]">
+                          Бампер (передний)
+                          <span class="ml-[80px] text-2xl">></span>
+                        </p>
+                        <img
+                          src="../images/f0fda06e87edf93b48548448a65140de 2.svg"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="border-1 border-[#ED7173] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <ul>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Локальная покраска 3 500 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Покраска целиком 8 000 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Съем
+                            установка 3 000 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Разбор
+                            1 000 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Ремонтные работы оцениваются по факту осмотра
+                          </li>
+                        </ul>
+                        <p class="flex gap-[10px] py-[15px]">
+                          <img
+                            src="../images/4265038_badge_guarantee_quality_ribbon_warranty_icon 1.svg"
+                            alt=""
+                          />1 год гаранти
+                        </p>
+                        <button class="ml-[80px]">Оставить заявку</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal footer -->
+                </div>
+              </div>
+            </div>
+
+            <img
+              src="../images/f0fda06e87edf93b48548448a65140de 2.svg"
+              alt=""
+            />
+          </div>
+          <div
+            class="border-1 border-[#D4D4D4] rounded-[14px] shadow-xl mt-[20px]"
+          >
+            <!-- Modal toggle -->
+            <button
+              data-modal-target="modal2"
+              data-modal-toggle="modal2"
+              class=" mb-[20px] text-blue font-sm leading-5 rounded-base text-md px-4 py-2.5"
+              type="button"
+            >
+              <div class="flex pt-[10px]">
+                Капот
+                <img
+                  class="pl-[200px]"
+                  src="../images/иконка подсказка.svg"
+                  alt=""
+                />
+              </div>
+            </button>
+            <!-- main modal -->
+            <div
+              id="modal2"
+              tabindex="-1"
+              aria-hidden="true"
+              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+            >
+              <div class="relative p-4 w-full max-w-2xl max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="relative bg-white border border-default rounded-base shadow-sm p-4 md:p-6"
+                >
+                  <!-- Modal header -->
+                  <div
+                    class="flex items-center justify-between border-b border-default pb-4 md:pb-5"
+                  >
+                    <h3 class="text-lg font-medium text-heading">
+                      Terms of Service
+                    </h3>
+                    <button
+                      type="button"
+                      class="text-body bg-transparent hover:bg-neutral-tertiary hover:text-heading rounded-base text-sm w-9 h-9 ms-auto inline-flex justify-center items-center"
+                      data-modal-hide="modal2"
+                    >
+                      <svg
+                        class="w-5 h-5"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M6 18 17.94 6M18 18 6.06 6"
+                        />
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                    </button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="space-y-4 md:space-y-6 py-4 md:py-6">
+                    <div class="flex gap-[20px]">
+                      <div
+                        class="border-1 border-[#D4D4D4] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <p class="pl-[17px] pt-[10px]">
+                          Капот
+                          <span class="ml-[80px] text-2xl">></span>
+                        </p>
+                        <img
+                          src="../images/fec0edb50e9e78e3b7a9d7bb1234e974 1.svg"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="border-1 border-[#ED7173] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <ul>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Локальная покраска 5 000 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Покраска целиком 10 000 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Съем
+                            установка 4 500 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Разбор
+                            900 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Ремонтные работы оцениваются по факту осмотра
+                          </li>
+                        </ul>
+                        <p class="flex gap-[10px] py-[15px]">
+                          <img
+                            src="../images/4265038_badge_guarantee_quality_ribbon_warranty_icon 1.svg"
+                            alt=""
+                          />1 год гаранти
+                        </p>
+                        <button class="ml-[80px]">Оставить заявку</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal footer -->
+                </div>
+              </div>
+            </div>
+
+            <img
+              src="../images/fec0edb50e9e78e3b7a9d7bb1234e974 1.svg"
+              alt=""
+            />
+          </div>
+          <div
+            class="border-1 border-[#D4D4D4] rounded-[14px] shadow-xl mt-[20px]"
+          >
+            <!-- Modal toggle -->
+            <button
+              data-modal-target="modal3"
+              data-modal-toggle="modal3"
+              class=" mb-[20px] text-blue font-sm leading-5 rounded-base text-md px-4 py-2.5"
+              type="button"
+            >
+              <div class="flex pt-[10px]">
+                Бампер (Задний)
+                <img
+                  class="pl-[160px]"
+                  src="../images/иконка подсказка.svg"
+                  alt=""
+                />
+              </div>
+            </button>
+            <!-- main modal -->
+            <div
+              id="modal3"
+              tabindex="-1"
+              aria-hidden="true"
+              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+            >
+              <div class="relative p-4 w-full max-w-2xl max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="relative bg-white border border-default rounded-base shadow-sm p-4 md:p-6"
+                >
+                  <!-- Modal header -->
+                  <div
+                    class="flex items-center justify-between border-b border-default pb-4 md:pb-5"
+                  >
+                    <h3 class="text-lg font-medium text-heading">
+                      Terms of Service
+                    </h3>
+                    <button
+                      type="button"
+                      class="text-body bg-transparent hover:bg-neutral-tertiary hover:text-heading rounded-base text-sm w-9 h-9 ms-auto inline-flex justify-center items-center"
+                      data-modal-hide="modal3"
+                    >
+                      <svg
+                        class="w-5 h-5"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M6 18 17.94 6M18 18 6.06 6"
+                        />
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                    </button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="space-y-4 md:space-y-6 py-4 md:py-6">
+                    <div class="flex gap-[20px]">
+                      <div
+                        class="border-1 border-[#D4D4D4] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <p class="pl-[17px] pt-[10px]">
+                          Бампер (Задний)
+                          <span class="ml-[80px] text-2xl">></span>
+                        </p>
+                        <img
+                          src="../images/fd87e46e5f5d7f2491a86cfa0f33b7e6 1.svg"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="border-1 border-[#ED7173] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <ul>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Локальная покраска 3 000 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Покраска целиком 6 500 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Съем
+                            установка 4 000 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Разбор
+                            1 500 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Ремонтные работы оцениваются по факту осмотра
+                          </li>
+                        </ul>
+                        <p class="flex gap-[10px] py-[15px]">
+                          <img
+                            src="../images/4265038_badge_guarantee_quality_ribbon_warranty_icon 1.svg"
+                            alt=""
+                          />1 год гаранти
+                        </p>
+                        <button class="ml-[80px]">Оставить заявку</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal footer -->
+                </div>
+              </div>
+            </div>
+            <img
+              src="../images/fd87e46e5f5d7f2491a86cfa0f33b7e6 1.svg"
+              alt=""
+            />
+          </div>
+          <div
+            class="border-1 border-[#D4D4D4] rounded-[14px] shadow-xl mt-[20px]"
+          >
+            <!-- Modal toggle -->
+            <button
+              data-modal-target="modal4"
+              data-modal-toggle="modal4"
+              class=" mb-[20px] text-blue font-sm leading-5 rounded-base text-md px-4 py-2.5"
+              type="button"
+            >
+              <div class="flex pt-[10px]">
+                Дверь
+                <img
+                  class="pl-[200px]"
+                  src="../images/иконка подсказка.svg"
+                  alt=""
+                />
+              </div>
+            </button>
+            <!-- main modal -->
+            <div
+              id="modal4"
+              tabindex="-1"
+              aria-hidden="true"
+              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+            >
+              <div class="relative p-4 w-full max-w-2xl max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="relative bg-white border border-default rounded-base shadow-sm p-4 md:p-6"
+                >
+                  <!-- Modal header -->
+                  <div
+                    class="flex items-center justify-between border-b border-default pb-4 md:pb-5"
+                  >
+                    <h3 class="text-lg font-medium text-heading">
+                      Terms of Service
+                    </h3>
+                    <button
+                      type="button"
+                      class="text-body bg-transparent hover:bg-neutral-tertiary hover:text-heading rounded-base text-sm w-9 h-9 ms-auto inline-flex justify-center items-center"
+                      data-modal-hide="modal4"
+                    >
+                      <svg
+                        class="w-5 h-5"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M6 18 17.94 6M18 18 6.06 6"
+                        />
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                    </button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="space-y-4 md:space-y-6 py-4 md:py-6">
+                    <div class="flex gap-[20px]">
+                      <div
+                        class="border-1 border-[#D4D4D4] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <p class="pl-[17px] pt-[10px]">Дверь</p>
+                        <img
+                          src="../images/d1d916b8b77d01edc149560bcc6fc3d7 1.svg"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="border-1 border-[#ED7173] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <ul>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Локальная покраска 2 500 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Покраска целиком 4 500 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Съем
+                            установка 5 000 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Разбор
+                            1 000 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Ремонтные работы оцениваются по факту осмотра
+                          </li>
+                        </ul>
+                        <p class="flex gap-[10px] py-[15px]">
+                          <img
+                            src="../images/4265038_badge_guarantee_quality_ribbon_warranty_icon 1.svg"
+                            alt=""
+                          />1 год гарантия
+                        </p>
+                        <button class="ml-[80px]">Оставить заявку</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal footer -->
+                </div>
+              </div>
+            </div>
+            <img
+              src="../images/d1d916b8b77d01edc149560bcc6fc3d7 1.svg"
+              alt=""
+            />
+          </div>
+          <div
+            class="border-1 border-[#D4D4D4] rounded-[14px] shadow-xl mt-[20px]"
+          >
+            <!-- Modal toggle -->
+            <button
+              data-modal-target="modal5"
+              data-modal-toggle="modal5"
+              class="mb-[20px] text-blue font-sm leading-5 rounded-base text-md px-4 py-2.5"
+              type="button"
+            >
+              <div class="flex pt-[10px]">
+                Крыло (заднее)
+                <img
+                  class="pl-[180px]"
+                  src="../images/иконка подсказка.svg"
+                  alt=""
+                />
+              </div>
+            </button>
+            <!-- main modal -->
+            <div
+              id="modal5"
+              tabindex="-1"
+              aria-hidden="true"
+              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+            >
+              <div class="relative p-4 w-full max-w-2xl max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="relative bg-white border border-default rounded-base shadow-sm p-4 md:p-6"
+                >
+                  <!-- Modal header -->
+                  <div
+                    class="flex items-center justify-between border-b border-default pb-4 md:pb-5"
+                  >
+                    <h3 class="text-lg font-medium text-heading">
+                      Terms of Service
+                    </h3>
+                    <button
+                      type="button"
+                      class="text-body bg-transparent hover:bg-neutral-tertiary hover:text-heading rounded-base text-sm w-9 h-9 ms-auto inline-flex justify-center items-center"
+                      data-modal-hide="modal5"
+                    >
+                      <svg
+                        class="w-5 h-5"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M6 18 17.94 6M18 18 6.06 6"
+                        />
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                    </button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="space-y-4 md:space-y-6 py-4 md:py-6">
+                    <div class="flex gap-[20px]">
+                      <div
+                        class="border-1 border-[#D4D4D4] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <p class="pl-[17px] pt-[10px]">Крыло (заднее)</p>
+                        <img
+                          src="../images/4167368e79882c7a72f392470b56b6d2 1.svg"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="border-1 border-[#ED7173] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <ul>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Локальная покраска 3 500 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Покраска целиком 6 000 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Съем
+                            установка 7 000 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Разбор
+                            2 999 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Ремонтные работы оцениваются по факту осмотра
+                          </li>
+                        </ul>
+                        <p class="flex gap-[10px] py-[15px]">
+                          <img
+                            src="../images/4265038_badge_guarantee_quality_ribbon_warranty_icon 1.svg"
+                            alt=""
+                          />1 год гарантия
+                        </p>
+                        <button class="ml-[80px]">Оставить заявку</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal footer -->
+                </div>
+              </div>
+            </div>
+            <img
+              src="../images/4167368e79882c7a72f392470b56b6d2 1.svg"
+              alt=""
+            />
+          </div>
+          <div
+            class="border-1 border-[#D4D4D4] rounded-[14px] shadow-xl mt-[20px]"
+          >
+            <!-- Modal toggle -->
+            <button
+              data-modal-target="modal6"
+              data-modal-toggle="modal6"
+              class=" mb-[20px] text-blue font-sm leading-5 rounded-base text-md px-4 py-2.5"
+              type="button"
+            >
+              <div class="flex pt-[10px]">
+                Крыло (переднее)
+                <img
+                  class="pl-[150px]"
+                  src="../images/иконка подсказка.svg"
+                  alt=""
+                />
+              </div>
+            </button>
+            <!-- main modal -->
+            <div
+              id="modal6"
+              tabindex="-1"
+              aria-hidden="true"
+              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+            >
+              <div class="relative p-4 w-full max-w-2xl max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="relative bg-white border border-default rounded-base shadow-sm p-4 md:p-6"
+                >
+                  <!-- Modal header -->
+                  <div
+                    class="flex items-center justify-between border-b border-default pb-4 md:pb-5"
+                  >
+                    <h3 class="text-lg font-medium text-heading">
+                      Terms of Service
+                    </h3>
+                    <button
+                      type="button"
+                      class="text-body bg-transparent hover:bg-neutral-tertiary hover:text-heading rounded-base text-sm w-9 h-9 ms-auto inline-flex justify-center items-center"
+                      data-modal-hide="modal6"
+                    >
+                      <svg
+                        class="w-5 h-5"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M6 18 17.94 6M18 18 6.06 6"
+                        />
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                    </button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="space-y-4 md:space-y-6 py-4 md:py-6">
+                    <div class="flex gap-[20px]">
+                      <div
+                        class="border-1 border-[#D4D4D4] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <p class="pl-[17px] pt-[10px]">Крыло (переднее)</p>
+                        <img
+                          src="../images/577cca490f9b919298656455ab6dca75 1.svg"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="border-1 border-[#ED7173] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <ul>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Локальная покраска 5 000 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Покраска целиком 8 000 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Съем
+                            установка 11 999 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Разбор
+                            4 000 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Ремонтные работы оцениваются по факту осмотра
+                          </li>
+                        </ul>
+                        <p class="flex gap-[10px] py-[15px]">
+                          <img
+                            src="../images/4265038_badge_guarantee_quality_ribbon_warranty_icon 1.svg"
+                            alt=""
+                          />1 год гарантия
+                        </p>
+                        <button class="ml-[80px]">Оставить заявку</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal footer -->
+                </div>
+              </div>
+            </div>
+            <img
+              src="../images/577cca490f9b919298656455ab6dca75 1.svg"
+              alt=""
+            />
+          </div>
+          <div
+            class="border-1 border-[#D4D4D4] rounded-[14px] shadow-xl mt-[20px]"
+          >
+            <!-- Modal toggle -->
+            <button
+              data-modal-target="modal7"
+              data-modal-toggle="modal7"
+              class=" mb-[20px] text-blue font-sm leading-5 rounded-base text-md px-4 py-2.5"
+              type="button"
+            >
+              <div class="flex pt-[10px]">
+                Зеркало (боковое)
+                <img
+                  class="pl-[160px]"
+                  src="../images/иконка подсказка.svg"
+                  alt=""
+                />
+              </div>
+            </button>
+            <!-- main modal -->
+            <div
+              id="modal7"
+              tabindex="-1"
+              aria-hidden="true"
+              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+            >
+              <div class="relative p-4 w-full max-w-2xl max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="relative bg-white border border-default rounded-base shadow-sm p-4 md:p-6"
+                >
+                  <!-- Modal header -->
+                  <div
+                    class="flex items-center justify-between border-b border-default pb-4 md:pb-5"
+                  >
+                    <h3 class="text-lg font-medium text-heading">
+                      Terms of Service
+                    </h3>
+                    <button
+                      type="button"
+                      class="text-body bg-transparent hover:bg-neutral-tertiary hover:text-heading rounded-base text-sm w-9 h-9 ms-auto inline-flex justify-center items-center"
+                      data-modal-hide="modal7"
+                    >
+                      <svg
+                        class="w-5 h-5"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M6 18 17.94 6M18 18 6.06 6"
+                        />
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                    </button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="space-y-4 md:space-y-6 py-4 md:py-6">
+                    <div class="flex gap-[20px]">
+                      <div
+                        class="border-1 border-[#D4D4D4] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <p class="pl-[17px] pt-[10px]">Зеркало (боковое)</p>
+                        <img
+                          src="../images/34516c905867569c8ee71a703d8c8c54 1.svg"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="border-1 border-[#ED7173] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <ul>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Локальная покраска 6 999 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Покраска целиком 4 999 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Съем
+                            установка 9 999 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Разбор
+                            2 500 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Ремонтные работы оцениваются по факту осмотра
+                          </li>
+                        </ul>
+                        <p class="flex gap-[10px] py-[15px]">
+                          <img
+                            src="../images/4265038_badge_guarantee_quality_ribbon_warranty_icon 1.svg"
+                            alt=""
+                          />1 год гарантия
+                        </p>
+                        <button class="ml-[80px]">Оставить заявку</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal footer -->
+                </div>
+              </div>
+            </div>
+            <img
+              src="../images/34516c905867569c8ee71a703d8c8c54 1.svg"
+              alt=""
+            />
+          </div>
+          <div
+            class="border-1 border-[#D4D4D4] rounded-[14px] shadow-xl mt-[20px]"
+          >
+            <!-- Modal toggle -->
+            <button
+              data-modal-target="modal8"
+              data-modal-toggle="modal8"
+              class=" mb-[20px] text-blue font-sm leading-5 rounded-base text-md px-4 py-2.5"
+              type="button"
+            >
+              <div class="flex pt-[10px]">
+                Крыша
+                <img
+                  class="pl-[210px]"
+                  src="../images/иконка подсказка.svg"
+                  alt=""
+                />
+              </div>
+            </button>
+            <!-- main modal -->
+            <div
+              id="modal8"
+              tabindex="-1"
+              aria-hidden="true"
+              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+            >
+              <div class="relative p-4 w-full max-w-2xl max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="relative bg-white border border-default rounded-base shadow-sm p-4 md:p-6"
+                >
+                  <!-- Modal header -->
+                  <div
+                    class="flex items-center justify-between border-b border-default pb-4 md:pb-5"
+                  >
+                    <h3 class="text-lg font-medium text-heading">
+                      Terms of Service
+                    </h3>
+                    <button
+                      type="button"
+                      class="text-body bg-transparent hover:bg-neutral-tertiary hover:text-heading rounded-base text-sm w-9 h-9 ms-auto inline-flex justify-center items-center"
+                      data-modal-hide="modal8"
+                    >
+                      <svg
+                        class="w-5 h-5"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M6 18 17.94 6M18 18 6.06 6"
+                        />
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                    </button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="space-y-4 md:space-y-6 py-4 md:py-6">
+                    <div class="flex gap-[20px]">
+                      <div
+                        class="border-1 border-[#D4D4D4] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <p class="pl-[17px] pt-[10px]">Крыша</p>
+                        <img
+                          src="../images/7ff409d9e8a1bca67a12025967c3313a 1.svg"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="border-1 border-[#ED7173] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <ul>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Локальная покраска 24 999 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Покраска целиком 29 999 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Съем
+                            установка 14 999 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Разбор
+                             9 999 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Ремонтные работы оцениваются по факту осмотра
+                          </li>
+                        </ul>
+                        <p class="flex gap-[10px] py-[15px]">
+                          <img
+                            src="../images/4265038_badge_guarantee_quality_ribbon_warranty_icon 1.svg"
+                            alt=""
+                          />1 год гарантия
+                        </p>
+                        <button class="ml-[80px]">Оставить заявку</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal footer -->
+                </div>
+              </div>
+            </div>
+            <img
+              src="../images/7ff409d9e8a1bca67a12025967c3313a 1.svg"
+              alt=""
+            />
+          </div>
+          <div
+            class="border-1 border-[#D4D4D4] rounded-[14px] shadow-xl mt-[20px]"
+          >
+            <!-- Modal toggle -->
+            <button
+              data-modal-target="modal9"
+              data-modal-toggle="modal9"
+              class=" mb-[20px] text-blue font-sm leading-5 rounded-base text-md px-4 py-2.5"
+              type="button"
+            >
+              <div class="flex pt-[10px]">
+                Багажник
+                <img
+                  class="pl-[190px]"
+                  src="../images/иконка подсказка.svg"
+                  alt=""
+                />
+              </div>
+            </button> 
+            <!-- main modal -->
+            <div
+              id="modal9"
+              tabindex="-1"
+              aria-hidden="true"
+              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+            >
+              <div class="relative p-4 w-full max-w-2xl max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="relative bg-white border border-default rounded-base shadow-sm p-4 md:p-6"
+                >
+                  <!-- Modal header -->
+                  <div
+                    class="flex items-center justify-between border-b border-default pb-4 md:pb-5"
+                  >
+                    <h3 class="text-lg font-medium text-heading">
+                      Terms of Service
+                    </h3>
+                    <button
+                      type="button"
+                      class="text-body bg-transparent hover:bg-neutral-tertiary hover:text-heading rounded-base text-sm w-9 h-9 ms-auto inline-flex justify-center items-center"
+                      data-modal-hide="modal9"
+                    >
+                      <svg
+                        class="w-5 h-5"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M6 18 17.94 6M18 18 6.06 6"
+                        />
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                    </button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="space-y-4 md:space-y-6 py-4 md:py-6">
+                    <div class="flex gap-[20px]">
+                      <div
+                        class="border-1 border-[#D4D4D4] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <p class="pl-[17px] pt-[10px]">Багажник</p>
+                        <img
+                          src="../images/885c2c6053d55159551cdee7c7dbf7d3 1.svg"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="border-1 border-[#ED7173] max-w-[290px] h-[300px] rounded-[14px] shadow-xl"
+                      >
+                        <ul>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Локальная покраска 4 999 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Покраска целиком 9 999 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Съем
+                            установка 3 999 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" /> Разбор
+                             5 999 руб.
+                          </li>
+                          <li
+                            class="flex gap-[10px] pt-[12px] pl-[6px] text-[#252525]"
+                          >
+                            <img src="../images/Ellipse 1.svg" alt="" />
+                            Ремонтные работы оцениваются по факту осмотра
+                          </li>
+                        </ul>
+                        <p class="flex gap-[10px] py-[15px]">
+                          <img
+                            src="../images/4265038_badge_guarantee_quality_ribbon_warranty_icon 1.svg"
+                            alt=""
+                          />1 год гарантия
+                        </p>
+                        <button class="ml-[80px]">Оставить заявку</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal footer -->
+                </div>
+              </div>
+            </div>
+            <img
+              src="../images/885c2c6053d55159551cdee7c7dbf7d3 1.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="mt-[100px] relative py-24 px-4 overflow-hidden">
+        <div class="absolute inset-0 opacity-80 pointer-events-none">
+          <img
+            src="../group4.png"
+            class="w-full h-full object-cover"
+            alt="Service background"
+          />
+          <div class="absolute inset-0 bg-black/30"></div>
+        </div>
+
+        <div class="relative z-10 max-w-[1200px] mx-auto">
+          <div class="max-w-4xl mx-auto text-center text-white mb-16">
+            <h3 class="text-xl md:text-3xl font-normal leading-relaxed">
+              Испытайте снова ту радость, когда вы только купили блестящую
+              машинку в салоне! Качественный покрас и ремонт автомобиля - это
+              отличный вариант обновить авто без покупки нового
+            </h3>
+          </div>
+
+          <div
+            class="max-w-4xl mx-auto flex flex-col justify-between md:flex-row items-start gap-12 text-white"
+          >
+            <div class="">
+              <div class="flex flex-col gap-6 mb-12">
+                <p class="text-gray-100 text-xl leading-relaxed">
+                  Вы можете добавить фото для оценки стоимости ремонта через
+                  форму
+                </p>
+                <label
+                  class="max-w-[230px] cursor-pointer shrink-0 border-2 border-white bg-black px-10 py-3.5 hover:bg-white hover:text-black transition-all duration-300 uppercase text-sm font-bold tracking-widest text-white"
+                >
+                  Добавить файл
+                  <input type="file" class="hidden" />
+                </label>
+              </div>
+            </div>
+
+            <div class="md:w-1/2 w-full">
+              <form class="space-y-4">
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Ваше имя"
+                    class="w-full bg-white border-none p-4 text-gray-900 focus:ring-2 focus:ring-gray-400 outline-none placeholder:text-gray-400"
+                    required
+                  />
+                </div>
+                <div>
+                  <input
+                    type="tel"
+                    placeholder="8-999-999-99-99"
+                    class="w-full bg-white border-none p-4 text-gray-900 focus:ring-2 focus:ring-gray-400 outline-none placeholder:text-gray-400"
+                    required
+                  />
+                </div>
+                <button
+                  type="submit"
+                  class="w-full border-2 border-white bg-black/50 text-white py-4 hover:bg-white hover:text-black transition-all duration-300 uppercase font-bold tracking-widest"
+                >
+                  Заказать звонок
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d466.79499592255854!2d37.60671366089695!3d55.76288268276007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0YjQuNC90L7QvNC-0L3RgtCw0LY!5e0!3m2!1sru!2s!4v1777223590927!5m2!1sru!2s"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </main>
+    <footer class="bg-[#333333] py-8 px-4 border-t border-gray-700">
+      <div
+        class="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-8 text-white"
+      >
+        <div class="flex items-center gap-3">
+          <img
+            src="../images/3 1.svg"
+            class="h-12 w-auto"
+            alt="Центр Автопокраски"
+          />
+        </div>
+
+        <div class="flex items-start gap-2 max-w-[220px]">
+          <svg
+            class="w-5 h-5 text-white shrink-0 mt-0.5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+            ></path>
+          </svg>
+          <p class="text-sm">Москва, Ленинградское шоссе 29-35</p>
+        </div>
+
+        <div class="text-center md:text-left">
+          <p class="text-gray-300 text-sm mb-1 uppercase tracking-wider">
+            Юр. реквизиты
+          </p>
+          <p class="text-sm text-gray-100">
+            ИНН 026601687198 <br />
+            ОГРН 322774600528427
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-1 text-right">
+          <a
+            href="tel:+79017041344"
+            class="text-lg font-medium hover:text-gray-300 transition-colors"
+          >
+            +7 (901) 704-13-44
+          </a>
+          <a
+            href="tel:+79167802259"
+            class="text-lg font-medium hover:text-gray-300 transition-colors"
+          >
+            +7 (916) 780-22-59
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+  </body>
+</html>

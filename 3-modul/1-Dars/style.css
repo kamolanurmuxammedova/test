@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:
+    Varela round,
+    sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.toy-header {
+  background-image: url("./images/backgroundimg.png");
+  width: 100%;
+  height: 100vh;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+
+  list-style-type: none;
+  gap: 32px;
+}
+
+.nav-wrapper-left {
+  display: flex;
+  align-items: center;
+  gap: 57px;
+}
+
+.nav-header {
+  background-color: #fff;
+}
+
+.nav-wrapper-right {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.nav-cart-icon {
+  width: 20px 24px;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #fff;
+  border-radius: 16px;
+  width: 570px;
+  padding: 55px 77px;
+  gap: 17px;
+}
+
+.header-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: calc(100vh - 79px);
+}
+
+.nav-logo {
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.main-btn {
+  width: 153px;
+  height: 48px;
+
+  font-style: 14px;
+  border-radius: 24px;
+
+  padding: 12px 28px;
+
+  background-color: #a5c926;
+  color: #fff;
+  border: none;
+}
+
+.main-paragraph {
+  color: #a5c926;
+  font-size: 13px;
+}
+
+.main-title {
+  font-weight: 400;
+  font-size: 39px;
+}
+
+.main-span {
+  margin-left: 50px;
+}
+
+.bear-card {
+  display: flex;
+
+  width: 570px;
+  height: 188px;
+  border-radius: 16px;
+
+  background-color: #ffc12c;
+  margin-top: 120px;
+}
+
+.bear-toy {
+  margin-top: -58px;
+}
+
+.bear-card-title {
+  font-weight: 400;
+  font-size: 28px;
+
+  color: #fff;
+  margin-top: 48px;
+}
+.bear-inf {
+  display: flex;
+  flex-direction: column;
+}
+
+.bear-card-btn {
+  margin-top: 16px;
+
+  width: 112px;
+  height: 40px;
+
+  border-radius: 20px;
+  border: none;
+}
+
+.flower-card {
+  display: flex;
+
+  width: 570px;
+  height: 188px;
+  border-radius: 16px;
+
+  background-color: #fb416b;
+  margin-top: 120px;
+}
+
+.flower-toy {
+  margin-top: -49px;
+  margin-left: 329px;
+}
+
+.flower-card-title {
+  font-weight: 400;
+  font-size: 28px;
+
+  color: #fff;
+}
+.flower-inf {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 48px;
+  margin-left: -450px;
+}
+
+.flower-card-btn {
+  margin-top: 16px;
+
+  width: 112px;
+  height: 40px;
+
+  border-radius: 20px;
+  border: none;
+  background-color: #fff;
+}
+
+.toy-cards {
+  display: flex;
+  justify-content: space-between;
+
+  width: 1200px;
+
+  margin-bottom: 120px;
+}
+
+.searcher-btn {
+  background-color: #fff;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.search-span {
+  text-decoration: underline #dddddd 3px;
+}
+
+.chooser-title {
+  font-weight: 400;
+  font-size: 27px;
+}
+
+.content-chooser {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: #a5c926 solid;
+  gap: 40px;
+}
+
+.card-title {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.card-btn {
+  width: 92px;
+  height: 24px;
+
+  background-color: #a5c926;
+  color: #fff;
+  border: none;
+
+  border-radius: 16px;
+  margin-top: 8px;
+}
+
+.card {
+  width: 270px;
+  height: 328px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #fff;
+  border: #00000026;
+  border-radius: 16px;
+}
+
+.cards-menu {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.video-preview {
+  background-image: url(./images/IMAGE\ \(1\).png);
+  width: 100%;
+  height: 65vh;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-inf {
+  width: 800px;
+  height: 232px;
+
+  color: #fff;
+  font-weight: 400;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.story-title {
+  font-size: 36px;
+}
+
+.story-span {
+  margin-left: 200px;
+}

@@ -1,0 +1,492 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+button:hover{
+  background: #00ff40;
+  background: radial-gradient(circle,rgba(0, 255, 64, 0.87) 0%, rgba(70, 252, 167, 0.71) 100%);
+  padding: 15px;
+}
+
+body {
+  background-image: url(./images/Gamix_G\ UI\ \ Page.png);
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+}
+
+.nav-link{
+  text-decoration: none;
+}
+
+.nav-links {
+  font-weight: 700;
+  font-size: 18px;
+  color: #2e2594;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-top: 22px;
+  list-style-type: none;
+}
+
+.nav-btn {
+  background-color: #b53071;
+  border-radius: 25px;
+  width: 170px;
+  height: 50px;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-mini-title {
+  font-weight: 400;
+  font-size: 20px;
+  color: #2e299a;
+  transform: translateY(-20px);
+}
+
+.main-title-span {
+  color: #b53071;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 58px;
+}
+
+.main-title-div {
+  display: flex;
+}
+
+button {
+  background-color: #b53071;
+  border: none;
+  color: #fff;
+}
+
+.main-title-logo {
+  width: 150px;
+  animation-name: gamepad;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+  transition: all 1s;
+
+}
+
+@keyframes gamepad{
+  0%{
+    transform: rotate(0);
+  }
+  50%{
+    transform: rotate(30deg);
+  }
+  100%{
+    transform: rotate(0);
+  }
+}
+
+.enjoy {
+  transform: translate(-60px) translateY(60px);
+  color: #b53071;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.main-paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  color: #332b5c;
+  transform: translateY(20px);
+}
+
+.main-btn {
+  width: 242px;
+  height: 52px;
+  border-radius: 25px;
+}
+
+.main-btns {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  transform: translateY(40px);
+}
+
+.main-left {
+  width: 590px;
+  transform: translateY(-30px);
+}
+
+.main-logo.aos-init.aos-animate{
+  padding-top: 50px;
+  width: 580px;
+  animation-name: gamer;
+  animation-duration: 300ms;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  transition: all 1s;
+}
+@keyframes gamer {
+  0%{
+    transform: translate(0);
+  }
+  50%{
+    transform: translate(20px);
+  }
+  100%{
+    transform: translate(0);
+  }
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more-inf {
+  padding-top: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-inf-title {
+  font-weight: 700;
+  font-size: 50px;
+  color: #171147;
+}
+
+.more-inf-mini-title {
+  color: #2e299a;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.card-games {
+  color: #b53071;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #2e2594, #f73b6c);
+  background-position: 0 100%;
+  background-size: 100% 3px;
+  background-repeat: no-repeat;
+  padding-bottom: 2px;
+}
+
+.more-inf-paragraph {
+  color: #332b5c;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 8px;
+}
+
+.more-inf-btn {
+  width: 230px;
+  height: 48px;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.inf-btn-logo {
+  transform: translate(-55px);
+}
+
+.more-inf-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.cards-menu-title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #842774;
+  padding: 30px 0;
+}
+
+.cards-menu-title-span {
+  color: #2e2594;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #2e2594, #f73b6c);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  padding-bottom: 2px;
+}
+
+.cards-menu-paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  color: #332b5c;
+}
+
+.cards-menu-text {
+  width: 600px;
+  height: 0 auto;
+}
+
+.cards-menu-mini-title {
+  font-weight: 400;
+  font-size: 20px;
+  color: #2e299a;
+}
+
+.qator-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.qator-2 {
+  margin-top: 88px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.qator-3 {
+  margin-top: 88px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  width: 500px;
+  padding:5px 0 5px 30px;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.card:hover {
+  background: #ee3ffb;
+  background: radial-gradient(
+  rgba(238, 63, 251, 0.325) 0%,
+  rgba(98, 0, 255, 0.334) 100%);
+  transform: scale(1.1) translateY(-20px);
+}
+
+.prices {
+  display: flex;
+  font-weight: 700;
+  font-size: 24px;
+  gap: 15px;
+  margin-bottom: 17px;
+}
+
+.new-price {
+  color: #b53071;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #94939b;
+}
+
+.otziv {
+  width: 243px;
+  height: 24px;
+  margin: 10px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 28px;
+  color: #2e2594;
+}
+
+.card-logo {
+  width: 150px;
+  transform: rotate(5deg);
+  transform: translate(-20px);
+}
+
+.buy-btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.strelka {
+  transform: translate(-60px);
+}
+
+.cards-sect {
+  padding-top: 170px;
+  padding-bottom: 230px;
+}
+
+.vid-sect {
+  background-image: url(./images/Mask\ Group\ \(1\).png);
+  width: 100%;
+  height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center;
+}
+
+.vid-mini-title {
+  padding-top: 31px;
+  color: #2e299a;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.vid-sect-title {
+  padding-top: 50px;
+  color: #171147;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.sect-span {
+  color: #b53071;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #f73b6c, #2e2594);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  padding-bottom: 2px;
+}
+
+.play-stop {
+  padding-top: 90px;
+}
+
+.review-sect {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rev-sect-mini-title {
+  margin: 150px 0 53px 0;
+  color: #2e299a;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.rev-sect-title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #171147;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #f73b6c, #2e2594);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  padding-bottom: 2px;
+}
+
+.rev {
+  margin: 53px 0 155px 0;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 24px;
+  color: #332b5c;
+}
+
+.rev-paragraph {
+  padding: 30px 0 40px;
+}
+
+.rev-left {
+  padding-left: 38px;
+}
+
+footer {
+  color: #fff;
+  height: 346px;
+}
+
+.footer-text-title {
+  padding-bottom: 30px;
+}
+
+.footer-logo {
+  padding-bottom: 30px;
+}
+
+.footer-paragraph {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.cards-link {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.contact-logos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-weight: 400;
+  font-size: 18px;
+  list-style-type: none;
+}
+
+.company-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-weight: 400;
+  font-size: 18px;
+  list-style-type: none;
+}
+
+.social-media {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 63px;
+}
+
+.bottom-links {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom {
+  width: 700px;
+  margin-left: 200px;
+  margin-top: 20px;
+}

@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo 2", sans-serif;
+}
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-bottom: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.main-title {
+  padding-top: 94px;
+  font-weight: 800;
+  font-size: 48px;
+  transition: all 0.5s;
+}
+
+.main-title:hover{
+transform: translate(40px);
+
+}
+
+.main-paragraph {
+  color: #403937;
+  font-weight: 400;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.main-paragraph:hover{
+  transform: translate(40px);
+}
+
+.items-menu-top {
+  padding-top: 66px;
+  display: flex;
+}
+
+.items-menu-top:hover{
+  transform: translate();
+}
+
+.items-menu-bottom {
+  padding-top: 20px;
+  display: flex;
+}
+
+.item-paragraph {
+  color: #574f4d;
+  font-weight: 400;
+  font-size: 16px;
+
+  padding-left: 10px;
+}
+
+.item-card {
+  display: flex;
+  align-items: center;
+}
+
+.item-card-right {
+  margin-left: 40px;
+}
+
+.cards-menu-title {
+  padding-top: 32px;
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.coffee-card {
+  width: 256px;
+  height: 310px;
+  background-color: #f3f2f2;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 36px;
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 6px;
+  margin-top: 54px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  transition: all 770ms;
+}
+
+.coffee-card-1:hover {
+  transform: scale(1.1);
+  background: #eeaeca;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.main-coffee{
+    transition:all 1s;
+}
+.main-coffee:hover{
+    transform: rotate(720deg);
+}
+
+.coffee-card-2:hover {
+  transform: translateY(30px);
+  background: #3f71fb;
+background: linear-gradient(319deg, rgba(63, 113, 251, 0.56) 0%, rgba(70, 252, 103, 0.58) 100%);
+}
+
+.coffee-card-3:hover{
+    transform: rotate(15deg);
+    background: #fb3f3f;
+background: linear-gradient(319deg, rgba(251, 63, 63, 0.79) 0%, rgba(70, 106, 252, 0.7) 100%);
+}
+
+.coffee-card-4:hover{
+    transform: skewY(30deg);
+    background: #ee3ffb;
+background: radial-gradient(circle, rgba(238, 63, 251, 0.9) 0%, rgba(70, 116, 252, 0.76) 100%);
+}
+
+.card-logo {
+  transform: translateY(-20px);
+  width: 120px;
+}
+
+.traditional-span {
+  background-color: #f1e9c9;
+  color: #c47f17;
+  border-radius: 4px 8px;
+}
+
+.gelado-span {
+  background-color: #f1e9c9;
+  color: #c47f17;
+  border-radius: 4px 8px;
+}
+
+.com-leitte {
+  background-color: #f1e9c9;
+  color: #c47f17;
+  border-radius: 4px 8px;
+}
+
+.especial-span {
+  background-color: #f1e9c9;
+  color: #c47f17;
+  border-radius: 4px 8px;
+}
+
+.alcoolico-span {
+  background-color: #f1e9c9;
+  color: #c47f17;
+  border-radius: 4px 8px;
+}
+
+.spans {
+  display: flex;
+  gap: 5px;
+}
+
+.last-section {
+  display: flex;
+}
+
+.last-coffee-card {
+  margin-left: 54px;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card-paragraph {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  color: #8d8686;
+}
+
+.card-price {
+  font-weight: 400;
+  font-size: 14px;
+  padding-right: 14px;
+}
+
+.price-span {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.card-inf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-prices {
+  padding-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.cards-menu {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,41 @@
+header{
+    background-color: #BB2339;
+    font-family: "Nunito", sans-serif;
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        .menu {
+            display: none;
+        }
+        h1{
+            color: #fff;
+        }
+        .nav-items{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            a{
+                color: #fff;
+            }
+            button{
+                background-color: #BB2339;
+                border: 1px solid #fff;
+                color: #fff;
+                padding: 10px 25px;
+                border-radius: 18px;
+                
+            }
+        }
+    }
+    @media (max-width:625px) {
+        .navbar{
+            .menu{
+                display: block;
+            }
+            .nav-items{
+                display: none;
+        }
+    }
+}
+}

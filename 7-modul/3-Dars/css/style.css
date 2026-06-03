@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    max-width: 300px;
+    padding: 20px 0;
+    background-color: orange;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 60px 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.dark-mode{
+    background-color: #000;
+}
+
+.dark-mode .card{
+    background-color: aqua;
+    color: #000000;
+}
+
+.sun{
+    display: none;
+}
+
+.dark-mode .moon{
+    display: none;
+}
+
+.dark-mode .sun{
+    display: block;
+}
+
+.dark{
+    border: none;
+    background-color:transparent ;
+}

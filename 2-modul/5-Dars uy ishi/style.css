@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(245, 251, 252);
+}
+.underline{
+    text-decoration: underline
+}
+.decorate{
+    font-family: Arial, Helvetica, sans-serif
+}
+.firstcard {
+    display: inline-block;
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 330px;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foodone {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0px;
+}
+.food{
+    width: 100%;
+    height: 143px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0px;
+}
+.card h3 {
+    margin: 0px;
+    font-size: 18px;
+}
+p{
+    color: gray;
+}
+.buttons{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+    border-radius: 5px;
+    border-style: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-left: 150px;
+}
+.price{
+    align-items: center;
+    display: flex;
+}
+.secondcard {
+    display: inline-block;
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thirthcard {
+    display: inline-block;
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fourthcard {
+    display: inline-block;
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 330px;
+    margin-top: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fifthcard {
+    display: inline-block;
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sixthcard {
+    display: inline-block;
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}

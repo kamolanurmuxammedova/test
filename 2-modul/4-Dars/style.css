@@ -1,0 +1,33 @@
+h1 {
+  color: blue;
+}
+form {
+  background-color: rgb(241, 234, 234);
+  width: 200px;
+  height: 220px;
+  padding: 30px;
+  margin: 5px;
+  border: 3px;
+  border-radius: 5px;
+  border-style: groove;
+}
+input {
+  width: 190px;
+  height: 30px;
+}
+.Login {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+a {
+  color: blue;
+}
+.Create {
+  background-color: rgb(39, 197, 39);
+  color: white;
+}
+.Emailpassword {
+  padding: 5px;
+  margin: 5px;
+}

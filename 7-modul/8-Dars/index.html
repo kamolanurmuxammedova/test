@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="max-w-[1200px] mx-auto px-[20px]">
+        <form class="form border-[2px] max-w-[300px] flex flex-col shadow-xl border-green-500 rounded-[20px] shadow-green-500 p-[20px] gap-[15px]">
+          <div class="flex justify-between gap-[30px]">
+            <button class="usa-btn bg-[red] text-white py-[5px] px-[15px]">$</button>
+            <button class="eu-btn bg-[red] text-white py-[5px] px-[10px]">EU</button>
+            <button class="rub-btn bg-[red] text-white py-[5px] px-[10px]">RUB</button>
+          </div>
+          <div>
+          <input type="text" placeholder="Введите сумму" class="form-input border-[2px] border-[green] rounded-[5px]">
+          <span class="valyuta">$</span>
+          </div>
+          <h1>Bu summa <span class="summa">0</span> so'm boladi</h1>
+          <button type="submit" class="transation bg-green-500 text-white py-[5px] rounded-[5px]">Перевести</button>
+        </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

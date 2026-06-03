@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+}
+.table-wrapper{
+    transform: translateY(50px);
+    margin-left: 400px;
+}
+
+th,td {
+    text-align: center;
+    padding: 15px 30px;
+}
+
+th{
+    background-color: rgb(96, 96, 246);
+    color: #fff;
+}
+
+td:nth-of-type(odd){
+    background-color: #e5e3e3;
+}
+
+button{
+    padding: 10px;
+    background-color: rgb(83, 83, 232);
+    color: #fff;
+    border: none;
+}
+h1{
+    margin-bottom: 30px;
+}
+
+.table-text{
+    margin-left: 250px;
+}

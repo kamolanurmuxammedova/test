@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1202px;
+  margin: 0 auto;
+}
+
+.cards {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  padding-top: 50px;
+}
+
+.owl-nav {
+  position: absolute;
+  top: 10px !important;
+  right: 0px !important;
+}
+.owl-nav .owl-prev span, .owl-nav .owl-next span {
+  background-color: red;
+  padding: 8px 15px;
+}
+.owl-nav .Next .Previous {
+  position: relative;
+}/*# sourceMappingURL=style.css.map */

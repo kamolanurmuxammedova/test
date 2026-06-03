@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1236px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.background-photo {
+  background-image: url(./images/Rectangle\ 26.png);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar {
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .nav_menu {
+  display: none;
+}
+.navbar ul {
+  display: flex;
+  text-align: center;
+  gap: 20px;
+}
+.navbar ul li {
+  color: #fff;
+}
+@media (max-width: 940px) {
+  .navbar .nav_links {
+    display: none;
+  }
+  .navbar .nav_menu {
+    display: inline;
+  }
+}
+
+#hero .hero_content {
+  margin-top: 150px;
+}
+#hero .hero_content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 140%;
+  color: #fff;
+  padding-bottom: 30px;
+}
+#hero .hero_cards {
+  margin-top: 42px;
+}
+#hero .hero_cards .hero_card {
+  background-color: #8d86c9;
+  color: #fff;
+  padding: 32px 32px;
+}
+@media (max-width: 640px) {
+  #hero .hero_cards {
+    margin-top: 79px;
+  }
+}
+
+#sport .sport_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding-top: 140px;
+}
+#sport .sport_cards .sport_card {
+  width: 100%;
+}
+@media (max-width: 1100px) {
+  #sport .sport_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 910px) {
+  #sport .sport_cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+#club {
+  padding: 150px 0;
+}
+#club .club_content {
+  display: flex;
+  align-items: center;
+}
+#club .club_content img {
+  width: 92%;
+  transform: translate(90px);
+}
+#club .club_content .club_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #f7ece1;
+  padding: 80px;
+}
+#club .club_content .club_text ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (max-width: 800px) {
+  #club .club_content {
+    display: block;
+  }
+  #club .club_content img {
+    width: 100%;
+    transform: translate(0px);
+  }
+}
+
+#trainers h1 {
+  padding: 40px 0;
+}
+#trainers .trainer_card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#trainers .trainer_card img {
+  width: 100%;
+}
+
+#prices .prices_cards {
+  max-width: 50%;
+}
+#prices ul {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#prices ul li {
+  background-color: #8D86C9;
+  padding: 20px;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

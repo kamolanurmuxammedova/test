@@ -1,0 +1,13 @@
+.dropdown_content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btn-group{
+    max-width: 59%;
+}
+
+.dropup_btns{
+    max-width: 100%;
+}

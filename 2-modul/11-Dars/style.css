@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+
+  background-image: url(./images/top-view-delicious-pasta-table\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contenier {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 32px;
+
+  color: #555;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+nav {
+  background-color: #fff;
+  width: 100%;
+}
+
+.nav-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+main {
+  margin-left: 144px;
+  margin-top: 293px;
+
+  width: 523px;
+  height: 234px;
+}
+
+.main-paragraph {
+  color: #7e7d7a;
+  font-weight: 400;
+  font-size: 18px;
+
+  margin-top: 8px;
+}
+
+.header-main-title {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.main-btn {
+  color: #000000;
+  background-color: #00d3fd;
+
+  border: none;
+
+  padding: 12px 32px;
+  border-radius: 33px;
+
+  margin-top: 20px;
+}
+
+.special-for-you {
+  width: 1148px;
+  height: 400px;
+
+  margin-left: 165px;
+  margin-top: 20px;
+
+  display: flex;
+}
+
+span {
+  text-decoration: underline 3px #00d3fd;
+}
+
+.card {
+  width: 356px;
+  padding: 20px 24px;
+  margin-top: 25px;
+
+  border-radius: 12px;
+  box-shadow: 0px 6px 16px 0px #00000029;
+  margin-right: 32px;
+}
+
+.menu-title {
+  width: 368px;
+  height: 53px;
+
+  font-weight: 600;
+  font-size: 32px;
+
+  margin-left: 165px;
+  margin-top: 48px;
+}
+
+.inf-card {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.price-card {
+  display: inline-block;
+  margin-left: 124px;
+}
+
+.card-btn {
+  border: none;
+  border-radius: 64px;
+  background-color: #00d3fd;
+
+  width: 308px;
+  height: 43px;
+
+  padding: 10px;
+  gap: 10px;
+
+  margin-top: 20px;
+}

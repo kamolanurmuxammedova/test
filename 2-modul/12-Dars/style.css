@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.conainer{
+    width: 1148px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(107, 5, 25);
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.nav-links{
+    display: flex;
+    gap: 12px;
+}
+
+.nav-link{
+    color: #fff;
+    list-style-type: none;
+}
+
+.nav-paragraph{
+    color: #fff;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    color: #fff;
+    display: flex;
+}
+.main-i{
+    color: orange;
+}
+
+.aside-btn{
+    background-color: orange;
+    padding: 12px 24px;
+    margin-right: 15px;
+    color: rgb(107, 5, 25);
+
+    border: none;
+    border-radius: 33px;
+}
+
+.main-paragraph{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-btn{
+    background-color:rgb(107, 5, 25);
+    padding: 12px 24px;
+    color: #fff;
+
+    border: solid #fff;
+    border-radius: 33px;
+}
+
+.coffee-img{
+    margin-left: 300px;
+    margin-top: 100pxf;
+}
+
+.left-aside{
+    margin-top: 230px;
+}

@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(./background3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Regular 400, sans-serif;
+    color: white;
+}
+.hero {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 18px 40px;
+    margin-top: 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 36px;
+    font-family: Regular 400;
+}
+.section {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    max-width: 1050px;
+    margin: 35px auto;
+}
+.section h2 {
+    margin-top: 0;
+}
+
+.section p {
+    margin: 5px 0
+    ;
+    opacity: 0.9;
+}
+th {
+    background-color: orange;
+}
+.form-section {
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    padding: 40px;
+    max-width: 1030px;
+    margin: 5px auto;
+}
+.form-section input,
+.form-section select {
+    width: 250px;
+    padding: 8px;
+    margin-top: 5px;
+}
+.form-section button {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: rgb(255, 128, 0)
+}

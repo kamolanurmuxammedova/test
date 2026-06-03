@@ -1,0 +1,1011 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="bg-[#404040]/30 backdrop-blur-sm text-white fixed w-full top-0 start-0 py-[16px] z-50 border-b-1 border-[#404040]/20"
+      >
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a
+            data-aos="fade-down-right"
+            data-aos-delay="1200"
+            data-aos-duration="1000"
+            href="./index.html"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img src="./images/3 1.svg" class="h-[50px]" alt="Flowbite Logo" />
+          </a>
+          <button
+            data-collapse-toggle="navbar-default"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary"
+            aria-controls="navbar-default"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="2"
+                d="M5 7h14M5 12h14M5 17h14"
+              />
+            </svg>
+          </button>
+          <div
+            class="hidden w-full md:flex md:w-auto gap-[150px]"
+            id="navbar-default"
+          >
+            <ul
+              class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary"
+            >
+              <li
+                data-aos="fade-down"
+                data-aos-delay="1300"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="./index.html"
+                  class="block py-2 px-3 text-heading bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0"
+                  aria-current="page"
+                  >Главная</a
+                >
+              </li>
+              <li
+                data-aos="fade-down"
+                data-aos-delay="1400"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="./pages/service.html"
+                  class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
+                  >Услуги</a
+                >
+              </li>
+              <li
+                data-aos="fade-down"
+                data-aos-delay="1500"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="./pages/example.html"
+                  class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
+                  >Примеры работ</a
+                >
+              </li>
+              <li
+                data-aos="fade-down"
+                data-aos-delay="1600"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="./pages/contact.html"
+                  class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+            <ul class="flex items-center justify-between gap-[20px]">
+              <li
+                data-aos="fade-down-left"
+                data-aos-delay="1250"
+                data-aos-duration="1000"
+                class="flex"
+              >
+                <img src="./images/Иконка.svg" alt="" /><a href="#map"
+                  >Москва, Ленинградское шоссе 29-35</a
+                >
+              </li>
+              <li
+                data-aos="fade-down-left"
+                data-aos-delay="1350"
+                data-aos-duration="1000"
+              >
+                <a href="#order">+7 (901) 704-13-44</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      
+    </header>
+
+    <div class="loader z-99999">
+      <div class="text"><span>Loading</span></div>
+      <div class="text"><span>Loading</span></div>
+      <div class="text"><span>Loading</span></div>
+      <div class="text"><span>Loading</span></div>
+      <div class="text"><span>Loading</span></div>
+      <div class="text"><span>Loading</span></div>
+      <div class="text"><span>Loading</span></div>
+      <div class="text"><span>Loading</span></div>
+      <div class="text"><span>Loading</span></div>
+      <div class="line"></div>
+    </div>
+
+    <main class="main">
+      <button class="dark z-1000 absolute top-8 left-365 fixed">
+              <img class="moon z-1000 w-[48px]" src="./images/moon_stars_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt=""/>
+              <img class="sun z-1000 w-[48px]" src="./images/wb_sunny_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt=""
+              />
+            </button>
+      <div
+        class="bg-[url(bgfon.png)] pt-[230px] w-100% bg-cover bg-center bg-no-repeat"
+      >
+        <section class="hero-bg h-[700px] flex flex-col justify-center px-4">
+          <div class="max-w-[1100px] mx-auto w-full">
+            <div>
+              <h1
+                data-aos="fade-right"
+                data-aos-delay="1300"
+                data-aos-duration="1000"
+                class="text-white text-4xl md:text-6xl font-semibold leading-tight"
+              >
+                Кузовной ремонт <br />
+                любой сложности
+              </h1>
+              <p
+                data-aos="fade-right"
+                data-aos-delay="1300"
+                data-aos-duration="1000"
+                class="text-white text-xl md:text-2xl text-gray-200 mb-8 pt-[15px] pb-[20px]"
+              >
+                на Ленинградском шоссе в Москве
+              </p>
+
+              <div class="flex flex-wrap gap-4 mb-6">
+                <button
+                  data-aos="fade-up-right"
+                  data-aos-delay="1300"
+                  data-aos-duration="1000"
+                  class="text-white border-2 border-white px-8 py-3 hover:bg-white hover:text-black transition uppercase font-semibold text-sm"
+                >
+                  Оставить заявку
+                </button>
+                <button
+                  data-aos="fade-up"
+                  data-aos-delay="1300"
+                  data-aos-duration="1000"
+                  class="border-2 border-white px-8 py-3 text-white hover:bg-white hover:text-black transition uppercase font-semibold text-sm"
+                >
+                  Оценить стоимость ремонта по фото
+                </button>
+              </div>
+              <div data-aos="fade-up" data-aos-duration="1000">
+                <p class="text-white text-sm md:text-base">
+                  Оставляйте заявку сейчас и получите
+                  <span class="text-red-500 font-bold">10% скидку</span> на
+                  покраску
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="max-w-6xl mx-auto w-full pb-10">
+            <div
+              class="grid grid-cols-1 md:grid-cols-3 gap-6 text-white pt-[80px]"
+            >
+              <div
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
+                class="hero-card border border-white p-6 flex flex-col items-center text-center"
+              >
+                <div class="mb-4 text-2xl">
+                  <img
+                    src="./images/4265038_badge_guarantee_quality_ribbon_warranty_icon 1.svg"
+                    alt=""
+                  />
+                </div>
+                <p class="text-lg">Гарантия 1 год</p>
+              </div>
+
+              <div
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"
+                class=" hero-card border border-white p-6 flex flex-col items-center text-center"
+              >
+                <div class="mb-4 text-2xl">
+                  <img src="./images/Иконка.svg" alt="" />
+                </div>
+                <p class="text-lg">
+                  Делаем как для себя:<br /><span class="text-sm text-gray-300"
+                    >качественно и без переплат</span
+                  >
+                </p>
+              </div>
+
+              <div
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"
+                class="hero-card border border-white p-6 flex flex-col items-center text-center"
+              >
+                <div class="mb-4 text-2xl">
+                  <img src="./images/Ellipse 1.svg" alt="" />
+                </div>
+                <p class="text-lg">
+                  Салон расположен<br /><span class="text-sm text-gray-300"
+                    >в пределах МКАД</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="more-inf py-[120px] px-4">
+        <div class="max-w-[1100px] mx-auto">
+          <div data-aos="fade-right" data-aos-duration="1000" class="text-center mb-16">
+            <h2
+              class="text-3xl md:text-5xl font-bold text-gray-200 uppercase tracking-wide mb-4"
+            >
+              Подробнее о Центре Автопокраски
+            </h2>
+            <p class=" text-lg md:text-xl">
+              Полное или частичное восстановление ЛКП за короткие сроки и с
+              гарантией качества
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-12">
+            <div class="relative pl-4">
+              <span
+                class="absolute -top-10 -left-2 text-8xl font-bold text-gray-100 -z-10"
+                >01</span
+              >
+              <div data-aos="fade-up-right" data-aos-delay="100" data-aos-duration="1000" class="relative z-10 ">
+                <p class="leading-relaxed text-lg">
+                  Уже 6 лет мы занимаемся качественным восстановлением машин от
+                  повреждений разной сложности. Рейтинг нашей мастерской на
+                  Яндексе составляет 4,5.
+                </p>
+              </div>
+            </div>
+
+            <div class="relative pl-4">
+              <span
+                class="absolute -top-10 -left-2 text-8xl font-bold -z-10 text-gray-100"
+                >02</span
+              >
+              <div data-aos="fade-up-right" data-aos-delay="200" data-aos-duration="1000" class="relative z-10">
+                <p class=" leading-relaxed text-lg">
+                  Заметили следы естественного износа? Мы легко удалим царапины,
+                  вмятины, коррозию и ржавчину, которые могут изрядно подпортить
+                  внешний вид автомобиля.
+                </p>
+              </div>
+            </div>
+
+            <div class="relative pl-4">
+              <span
+                class="absolute -top-10 -left-2 text-8xl font-bold text-gray-100 -z-10"
+                >03</span
+              >
+              <div data-aos="fade-up-right" data-aos-delay="300" data-aos-duration="1000" class="relative z-10">
+                <p class="leading-relaxed text-lg">
+                  Попали в ДТП и хотите сохранить вид вашего авто? Исправим
+                  повреждения за короткий срок!
+                </p>
+              </div>
+            </div>
+
+            <div class="relative pl-4">
+              <span
+                class="absolute -top-10 -left-2 text-8xl font-bold text-gray-100 select-none -z-10"
+                >04</span
+              >
+              <div data-aos="fade-up-right" data-aos-delay="400" data-aos-duration="1000" class="relative z-10">
+                <p class=" leading-relaxed text-lg">
+                  Использование качественных материалов: Sikkens, Akzo, Nobel,
+                  Brulex, 3M, Car System, Body Reoflex, позволяет сохранить
+                  результат работы надолго. Гарантия на все виды работ
+                  составляет 1 год.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-[url(pexels.png)] relative py-20 px-4 overflow-hidden">
+        <div class="absolute inset-0 opacity-30 pointer-events-none">
+          <img
+            src="./images/bg-car-benefits.png"
+            class="w-full h-full object-cover"
+            alt="background"
+          />
+        </div>
+
+        <div class="relative z-10 max-w-[1240px] mx-auto">
+          <div data-aos="fade-right" data-aos-duration="1000"  class="text-center mb-12">
+            <h2
+              class="text-white text-4xl md:text-6xl font-bold uppercase tracking-wider"
+            >
+              Выгоды
+            </h2>
+            <p class="text-gray-300 mt-4 text-xl">
+              Ваш автомобиль будет блестеть как после покупки
+            </p>
+          </div>
+
+          <div class="relative px-12">
+            <div class="swiper benefitsSwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"
+                    class="bg-white p-8 h-[280px] flex flex-col items-center justify-center text-center"
+                  >
+                    <img
+                      src="./images/Иконка 1.svg"
+                      class="w-12 h-12 mb-4"
+                      alt=""
+                    />
+                    <p class="text-black font-bold text-sm">
+                      Удобная локация на Ленинградском шоссе
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000"
+                    class="bg-white p-8 h-[280px] flex flex-col items-center justify-center text-center"
+                  >
+                    <img
+                      src="./images/Иконка 2.svg"
+                      class="w-12 h-12 mb-4"
+                      alt=""
+                    />
+                    <p class="text-black font-bold text-sm">
+                      Осмотр автомобиля производится бесплатно
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000"
+                    class="bg-white p-8 h-[280px] flex flex-col items-center justify-center text-center"
+                  >
+                    <img
+                      src="./images/Иконка 3.svg"
+                      class="w-12 h-12 mb-4"
+                      alt=""
+                    />
+                    <p class="text-black font-bold text-sm">
+                      Наличный и безналичный расчет
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000" 
+                    class="bg-white p-8 h-[280px] flex flex-col items-center justify-center text-center"
+                  >
+                    <img
+                      src="./images/Иконка 4.svg"
+                      class="w-12 h-12 mb-4"
+                      alt=""
+                    />
+                    <p class="text-black font-bold text-sm">
+                      Работаем по заказ-наряду с гарантией
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div  data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1000"
+                    class="bg-white p-8 h-[280px] flex flex-col items-center justify-center text-center"
+                  >
+                    <img
+                      src="./images/Иконка 5.svg"
+                      class="w-12 h-12 mb-4"
+                      alt=""
+                    />
+                    <p class="text-black font-bold text-sm">
+                      Оплата для юридических лиц на счет
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button
+              id="prevBtn"
+              class="absolute left-0 top-1/2 -translate-y-1/2 z-20 bg-white/10 hover:bg-white text-white hover:text-black w-10 h-10 flex items-center justify-center rounded-full transition-all border border-white/20"
+            >
+              &#10094;
+            </button>
+            <button
+              id="nextBtn"
+              class="absolute right-0 top-1/2 -translate-y-1/2 z-20 bg-white/10 hover:bg-white text-white hover:text-black w-10 h-10 flex items-center justify-center rounded-full transition-all border border-white/20"
+            >
+              &#10095;
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="service py-20 px-4">
+        <div class="max-w-[1200px] mx-auto">
+          <div data-aos="fade-right" data-aos-duration="1000" class="text-center mb-12 ">
+            <h2
+              class="text-gray-200 text-4xl md:text-6xl font-bold uppercase tracking-wider mb-4"
+            >
+              Услуги
+            </h2>
+            <p  class=" text-lg max-w-3xl mx-auto">
+              Помимо нанесения лакокрасочных покрытий вы можете получить услуги
+              по ремонту и вернуть своей "ласточке" заводской вид
+            </p>
+          </div>
+
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12"
+          >
+            <div data-aos="fade-up-right" data-aos-duration="800" 
+              class="group border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow"
+            >
+              <div class="h-[200px] overflow-hidden">
+                <img
+                  src="./images/Mask group (10).svg"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  alt="Замена деталей"
+                />
+              </div>
+              <div class="p-4 text-center border-t border-gray-200">
+                <p class=" font-medium">Замена деталей</p>
+              </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="800"
+              class="group border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow"
+            >
+              <div class="h-[200px] overflow-hidden">
+                <img
+                  src="./images/Mask group (11).svg"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  alt="Полировка"
+                />
+              </div>
+              <div class="p-4 text-center border-t border-gray-200">
+                <p class=" font-medium">Полировка</p>
+              </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="800"
+              class="group border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow"
+            >
+              <div class="h-[200px] overflow-hidden">
+                <img
+                  src="./images/Mask group (12).svg"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  alt="Исправление вмятин"
+                />
+              </div>
+              <div class="p-4 text-center border-t ">
+                <p class="font-medium">Исправление вмятин</p>
+              </div>
+            </div>
+
+            <div data-aos="fade-up-left" data-aos-duration="800"
+              class="group border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow"
+            >
+              <div class="h-[200px] overflow-hidden">
+                <img
+                  src="./images/Mask group (13).svg"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  alt="Чистка (мойка)"
+                />
+              </div>
+              <div class="p-4 text-center border-t border-gray-200">
+                <p class=" font-medium">Чистка (мойка)</p>
+              </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="800"
+              class="group border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow"
+            >
+              <div class="h-[200px] overflow-hidden">
+                <img
+                  src="./images/Mask group (14).svg"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  alt="Ремонт бамперов"
+                />
+              </div>
+              <div class="p-4 text-center border-t ">
+                <p class=" font-medium">Ремонт бамперов</p>
+              </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="800"
+              class="group border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow"
+            >
+              <div class="h-[200px] overflow-hidden">
+                <img
+                  src="./images/Mask group (15).svg"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  alt="Сбор-разбор"
+                />
+              </div>
+              <div class="p-4 text-center border-t border-gray-200">
+                <p class=" font-medium">Сбор-разбор</p>
+              </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="800"
+              class="group border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow"
+            >
+              <div class="h-[200px] overflow-hidden">
+                <img
+                  src="./images/Mask group (16).svg"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  alt="Съем"
+                />
+              </div>
+              <div class="p-4 text-center border-t border-gray-200">
+                <p class="font-medium">Съем</p>
+              </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="800"
+              class="group border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow"
+            >
+              <div class="h-[200px] overflow-hidden">
+                <img
+                  src="./images/Mask group (17).svg"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  alt="Покраска"
+                />
+              </div>
+              <div class="p-4 text-center border-t border-gray-200">
+                <p class=" font-medium">Покраска</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <a
+              href="./pages/service.html"
+              class="inline-block border border-gray-300 px-12 py-3 hover:bg-gray-800 hover:text-white hover:border-gray-800 transition-all duration-300"
+            >
+              Подробнее
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-[url(group3.png)] relative py-20 px-4 overflow-hidden">
+        <div class="absolute inset-0 opacity-40 pointer-events-none">
+          <img
+            src="./images/reviews-bg.jpg"
+            class="w-full h-full object-cover"
+            alt=""
+          />
+        </div>
+
+        <div class="relative z-10 max-w-[1240px] mx-auto">
+          <div class="text-center mb-12">
+            <h2
+              class="text-white text-4xl md:text-6xl font-bold uppercase tracking-wider"
+            >
+              Отзывы клиентов
+            </h2>
+            <p class="text-gray-300 mt-4 text-lg">
+              Посмотрите на отзывы тех, кто уже обращался в нашу автомастерскую
+            </p>
+          </div>
+
+          <div class="relative px-4 md:px-16">
+            <div class="swiper reviewsSwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="bg-white p-6 md:p-8 rounded-sm h-full shadow-lg">
+                    <div class="flex items-center gap-4 mb-4">
+                      <img
+                        src="./images/73785eb9a270bf3c1fc7957f5082af44.jpg"
+                        class="w-12 h-12 rounded-full object-cover"
+                        alt="Айя С."
+                      />
+                      <div>
+                        <h4 class="text-black font-bold">Айя С.</h4>
+                        <p class="text-gray-400 text-xs">
+                          Знаток города 2 уровня
+                        </p>
+                      </div>
+                    </div>
+                    <div class="flex text-yellow-400 mb-3">★★★★★</div>
+                    <p class="text-gray-700 text-sm leading-relaxed">
+                      Ударили в правое заднее крыло, когда ехала на работу.
+                      Стала искать по близости автосервис. Ребята очень быстро
+                      приехали на помощь с эвакуатором и отвезли в сервис.
+                      Сделали хорошо, очень быстро и очень качественно.
+                      Действительно хорошие ребята. Советую.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="bg-white p-6 md:p-8 rounded-sm h-full shadow-lg">
+                    <div class="flex items-center gap-4 mb-4">
+                      <img
+                        src="./images/c7b71c580773a302f6864a3cb22ca673.jpg"
+                        class="w-12 h-12 rounded-full object-cover"
+                        alt="Ярослав"
+                      />
+                      <div>
+                        <h4 class="text-black font-bold">Ярослав Родожников</h4>
+                        <p class="text-gray-400 text-xs">
+                          Знаток города 10 уровня
+                        </p>
+                      </div>
+                    </div>
+                    <div class="flex text-yellow-400 mb-3">★★★★★</div>
+                    <p class="text-gray-700 text-sm leading-relaxed">
+                      Однозначно рекомендую! Константин и его команда свое дело
+                      знают, очень им благодарен! Обращался по кузовным работам,
+                      покраске, полировке, все выполнили очень ответственно,
+                      качественно и по цене на уровне дешевле конкурентов, цвет
+                      идеально совпал, автомобиль сияет. Важно, что всё сделали
+                      в строго оговоренные сроки!
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="bg-white p-6 md:p-8 rounded-sm h-full shadow-lg">
+                    <div class="flex items-center gap-4 mb-4">
+                      <img
+                        src="./images/1ab57328d67c3aaea86bfaa455158072.jpg"
+                        class="w-12 h-12 rounded-full object-cover"
+                        alt="Клиент"
+                      />
+                      <div>
+                        <h4 class="text-black font-bold">Дмитрий В.</h4>
+                        <p class="text-gray-400 text-xs">Местный эксперт</p>
+                      </div>
+                    </div>
+                    <div class="flex text-yellow-400 mb-3">★★★★★</div>
+                    <p class="text-gray-700 text-sm leading-relaxed">
+                      Отличный сервис. Красил здесь бампер и капот. В цвет
+                      попали идеально, переходов не видно совсем. По срокам не
+                      подвели, забрал машину через 3 дня, как и договаривались.
+                      Приятно иметь дело с профессионалами.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="bg-white p-6 md:p-8 rounded-sm h-full shadow-lg">
+                    <div class="flex items-center gap-4 mb-4">
+                      <img
+                        src="./images/ad0b074e964009541261f7751113baf4.jpg"
+                        class="w-12 h-12 rounded-full object-cover"
+                        alt="Клиент"
+                      />
+                      <div>
+                        <h4 class="text-black font-bold">Ольга К.</h4>
+                        <p class="text-gray-400 text-xs">Постоянный клиент</p>
+                      </div>
+                    </div>
+                    <div class="flex text-yellow-400 mb-3">★★★★★</div>
+                    <p class="text-gray-700 text-sm leading-relaxed">
+                      Лучшая покраска на Ленинградке! Делали глубокую полировку
+                      кузова после зимы — машина как из салона. Цены адекватные,
+                      лишнего не навязывают. Большое спасибо мастерам!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button
+              id="revPrev"
+              class="absolute left-0 top-1/2 -translate-y-1/2 z-20 text-white/50 hover:text-white transition-colors"
+            >
+              <svg
+                class="w-10 h-10"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 19l-7-7 7-7"
+                />
+              </svg>
+            </button>
+            <button
+              id="revNext"
+              class="absolute right-0 top-1/2 -translate-y-1/2 z-20 text-white/50 hover:text-white transition-colors"
+            >
+              <svg
+                class="w-10 h-10"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="example py-20 px-4">
+        <div class="max-w-[1200px] mx-auto text-center">
+          <div data-aos="fade-right" data-aos-duration="1000" class="mb-12 ">
+            <h2
+              class="text-gray-200 text-4xl md:text-6xl font-bold uppercase tracking-wider mb-4"
+            >
+              Примеры работ
+            </h2>
+            <p class=" text-lg max-w-4xl mx-auto">
+              Наша автомастерская - это семейный бизнес, поэтому мы делаем все
+              как для себя. Качественно. Надолго. Без переплат. Посмотрите
+              примеры выполненных работ, чтобы быть уверенным в надежности
+              специалистов, в руки которых вы передадите автомобиль
+            </p>
+          </div>
+
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12"
+          >
+            <div data-aos="fade-up-right" data-aos-duration="800" class="aspect-square overflow-hidden group cursor-pointer">
+              <img
+                src="./images/Карточка 1.svg"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt="Пример работы"
+              />
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="800" class="aspect-square overflow-hidden group cursor-pointer">
+              <img
+                src="./images/Карточка 2.svg"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt="Пример работы"
+              />
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="800" class="aspect-square overflow-hidden group cursor-pointer">
+              <img
+                src="./images/Карточка 3.svg"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt="Пример работы"
+              />
+            </div>
+
+            <div data-aos="fade-up-left" data-aos-duration="800" class="aspect-square overflow-hidden group cursor-pointer">
+              <img
+                src="./images/Карточка 4.svg"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt="Пример работы"
+              />
+            </div>
+          </div>
+
+          <div class="mt-8">
+            <a
+              href="./pages/example.html"
+              class="inline-block border border-gray-300 px-10 py-3 font-medium hover:bg-gray-800 hover:text-white hover:border-gray-800 transition-all duration-300"
+            >
+              Посмотреть еще
+            </a>
+          </div>
+        </div>
+      </section>
+      <section
+        class="bg-[url(group4.png)] bg-no-repeat bg-cover relative py-24 px-4 overflow-hidden"
+      >
+        <div class="absolute inset-0 opacity-60 pointer-events-none">
+          <img
+            src="./images/form-bg.jpg"
+            class="w-full h-full object-cover"
+            alt="Service background"
+          />
+          <div class="absolute inset-0 bg-black/30"></div>
+        </div>
+
+        <div class="relative z-10 max-w-[1200px] mx-auto">
+          <div class="max-w-4xl mx-auto text-center text-white mb-16">
+            <h3 class="text-xl md:text-3xl font-normal leading-relaxed dark-mode:color-#e5e7eb">
+              Испытайте снова ту радость, когда вы только купили блестящую
+              машинку в салоне! Качественный покрас и ремонт автомобиля - это
+              отличный вариант обновить авто без покупки нового
+            </h3>
+          </div>
+
+          <div
+            class="max-w-4xl mx-auto flex flex-col justify-between md:flex-row items-start gap-12 text-white"
+          >
+            <div class="">
+              <div class="flex flex-col gap-6 mb-12">
+                <p class="text-gray-100 text-xl leading-relaxed">
+                  Вы можете добавить фото для оценки стоимости ремонта через
+                  форму
+                </p>
+                <label
+                  class="max-w-[230px] cursor-pointer shrink-0 border-2 border-white bg-black px-10 py-3.5 hover:bg-white hover:text-black transition-all duration-300 uppercase text-sm font-bold tracking-widest text-white"
+                >
+                  Добавить файл
+                  <input type="file" class="hidden" />
+                </label>
+              </div>
+            </div>
+
+            <div class="md:w-1/2 w-full">
+              <form class="space-y-4">
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Ваше имя"
+                    class="w-full bg-white border-none p-4 text-gray-900 focus:ring-2 focus:ring-gray-400 outline-none placeholder:text-gray-400"
+                    required
+                  />
+                </div>
+                <div>
+                  <input
+                    type="tel"
+                    placeholder="8-999-999-99-99"
+                    id="order"
+                    class="w-full bg-white border-none p-4 text-gray-900 focus:ring-2 focus:ring-gray-400 outline-none placeholder:text-gray-400"
+                    required
+                  />
+                </div>
+                <button
+                  type="submit"
+                  class="w-full border-2 border-white bg-black/50 text-white py-4 hover:bg-white hover:text-black transition-all duration-300 uppercase font-bold tracking-widest"
+                >
+                  Заказать звонок
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d466.79499592255854!2d37.60671366089695!3d55.76288268276007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0YjQuNC90L7QvNC-0L3RgtCw0LY!5e0!3m2!1sru!2s!4v1777223590927!5m2!1sru!2s"
+        id="map"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </main>
+    <footer class="bg-[#333333] py-8 px-4 border-t border-gray-700">
+      <div
+        class="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-8 text-white"
+      >
+        <div class="flex items-center gap-3">
+          <img
+            src="./images/3 1.svg"
+            class="h-12 w-auto"
+            alt="Центр Автопокраски"
+          />
+        </div>
+
+        <div class="flex items-start gap-2 max-w-[220px]">
+          <svg
+            class="w-5 h-5 text-white shrink-0 mt-0.5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+            ></path>
+          </svg>
+          <p class="text-sm">Москва, Ленинградское шоссе 29-35</p>
+        </div>
+
+        <div class="text-center md:text-left">
+          <p class="text-gray-300 text-sm mb-1 uppercase tracking-wider">
+            Юр. реквизиты
+          </p>
+          <p class="text-sm text-gray-100">
+            ИНН 026601687198 <br />
+            ОГРН 322774600528427
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-1 text-right">
+          <a
+            href="tel:+79017041344"
+            class="text-lg font-medium hover:text-gray-300 transition-colors"
+          >
+            +7 (901) 704-13-44
+          </a>
+          <a
+            href="tel:+79167802259"
+            class="text-lg font-medium hover:text-gray-300 transition-colors"
+          >
+            +7 (916) 780-22-59
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jotfor.ms/agent/embedjs/019dcdfba3a77872a7912662f9e99501f39c/embed.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const reviewsSwiper = new Swiper(".reviewsSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+
+        allowTouchMove: false,
+        simulateTouch: false,
+
+        navigation: {
+          nextEl: "#revNext",
+          prevEl: "#revPrev",
+        },
+        breakpoints: {
+          1024: {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+          },
+        },
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".benefitsSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        allowTouchMove: true,
+        simulateTouch: false,
+        navigation: {
+          nextEl: "#nextBtn",
+          prevEl: "#prevBtn",
+        },
+        breakpoints: {
+          640: { slidesPerView: 2 },
+          1024: { slidesPerView: 4 },
+        },
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

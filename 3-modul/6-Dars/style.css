@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+header{
+  background-color: #D7F5DC;
+  width: 100%;
+  height: 100vh;
+}
+
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links-wrapper{
+  margin-top: 18px;
+
+  display: flex;
+  justify-content: space-between;
+
+  gap: 30px;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style-type: none;
+  gap: 30px;
+}
+
+.nav-link{
+  transition: all 1s;
+}
+
+.nav-link:hover{
+  border-bottom: red 4px solid;
+  font-weight: 500;
+  font-size: 18px;
+  transition: all 1s;
+}
+
+.login-btn{
+  padding: 6px;
+  width: 93px;
+  height: 44px;
+
+  background-color: #D7F5DC;
+  border: #20B15A 2px solid;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+.login-btn:hover{
+  width: 100px;
+  height: 50px;
+  background-color: #20b25a;
+  transition: all 1s;
+  color: #fff;
+}
+
+.reg-btn{
+  padding: 6px;
+  width: 105px;
+  height: 44px;
+
+  background-color: #D7F5DC;
+  border-radius: 10px;
+  border:#20B15A 2px solid;
+  transition: all 1s;
+}
+
+.reg-btn:hover{
+  width: 120px;
+  height: 50px;
+  background-color: #20b25a;
+  transition: all 1s;
+  color: #fff;
+}
+
+.main-title{
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.main-paragraph{
+  font-weight: 500;
+  font-size: 20px;
+
+  padding: 20px 0; 
+}
+
+.main-btn{
+  display: flex;
+  border: none;
+  border-radius: 16px;
+  gap: 10px;
+  padding: 20px 30px;
+  background-color: #D7F5DC;
+  border: #20B15A 2px solid;
+}
+
+.main-btn:hover{
+  background-color: #20b25a;
+  transition: all 1s;
+  color: #fff;
+}
+
+.main-text{
+  width: 500px;
+  height: 0 auto;
+}
+
+.header-main{
+  display: flex;
+  align-items: center;
+}
+
+.header-lady{
+  width: 630px;
+  height: 0 auto;
+}
+
+.sponsor-logos{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+  margin-top: -7px;
+}
+
+.sponsors-wrapper{
+  background-color: #fff;
+}
+
+.mini-title{
+  font-weight: 500;
+  font-size: 20px;
+  color: #20B15A;
+  padding-bottom: 10px;
+}
+
+.cards-title{
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.career-card{
+  width: 350px;
+  height: 370px;
+
+  margin: 67px 0;
+}
+
+.career-card-btn{
+  background-color: #fff;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 15px 20px;
+  margin-top: 35px;
+}
+
+.career-card-title{
+  font-weight: 600;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.career-cards-wrapper{
+  margin: 50px;
+}
+
+.cards-menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.plans{
+  background-color: #FAFFFB;
+}
+
+.plan-card{
+  width: 230px;
+  height: 230px;
+
+  border-right: 1px solid #C4C4C480;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.plan-card-logo{
+  width: 70px;
+}
+
+.plan-card-potential{
+  width: 122px;
+  height: 60px;
+}
+
+.plan-card-title{
+  padding-bottom: 15px;
+  padding-top: 8px;
+}
+
+.plan-cards-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 350px;
+}
+
+.review-sect-mini-title{
+  color: #20B15A;
+  font-weight: 500;
+  font-size: 20px;
+
+  padding-bottom: 10px;
+}
+
+.review-sect-title{
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.review-section-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ustozizvinite{
+  width: 1440px;
+  height: 1626px;
+
+  margin-left: 55px;
+  padding-bottom: 70px;
+}
+
+.fio-card{
+  display: flex;
+}
+
+.review-cards{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 85px;
+  padding-bottom: 91px;
+}
+
+.review-card{
+  width: 450px;
+  height: 250px;
+  padding: 30px;
+  border-radius: 20px;
+  border: #0000001a 1px solid;
+  border-bottom: #0000001a 3px solid;
+  border-right: #0000001a 3px solid;
+}
+
+.footer-paragraph{
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #8B8B8B;
+  padding: 14px 0;
+  padding-bottom: 24px;
+}
+
+.footer-title{
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.footer-mini-title{
+  font-weight: 500;
+  font-size: 20px;
+
+  color: #20B15A;
+  padding-bottom: 10px;
+}
+
+.footer-main{
+  text-align: center;
+}
+
+.email-reg{
+  width: 400px;
+  border-radius: 14px;
+  padding: 16px 20px;
+  transition: all 1s;
+}
+
+.email-reg-btn{
+  background-color: #F55F1D;
+  border: none;
+  color: #fff;
+  padding: 16px  32px;
+  border-radius: 12px;
+  margin-bottom: 180px;
+  transition: all 1s;
+}
+
+.email-reg-btn:hover{
+  padding: 20px 40px;
+  transition: all 700ms;
+}
+
+.footer-email{
+  margin-top: 120px;
+}
+
+.email-reg:focus{
+  width: 450px;
+  padding: 20px 24px;
+  transition: all 1s;
+  background-color: #FAFFFB;
+}
